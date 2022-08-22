@@ -3,11 +3,20 @@ padding-top: 90px;
 padding-bottom: 90px;
 }
 /* navbar */
+nav{
+    background-color: #212529;
+    border-radius: 50px;
+}
 .nav-item{
     margin-left: 20px;
 }
+.nav-link{
+    color: #fff;
+}
+
 .nav-link:hover{
-    border-bottom:2px solid #000;
+    color: #facd8a;
+    border-bottom:2px solid #facd8a;
 }
 /* navbar */
 
@@ -50,9 +59,6 @@ background-color: #000;
     font-weight:bolder;
 }
 
-.inv-plans {
-    padding-top: 90px;
-}
 
 
 .container {
@@ -76,7 +82,7 @@ background-color: #000;
 }
 
 .plans {
-    margin: 30px 0;
+    margin: 60px 0;
 }
 
 .plan_details.text-center {
@@ -146,17 +152,6 @@ li.list-item {
 .d-flex {
     display: -ms-flexbox!important;
     display: flex!important;
-}
-
-.plans-label.one {
-    color: #ffffff;
-}
-.plans-label {
-    font-size: 14px;
-    color: #647482;
-    padding-bottom: 15px;
-    font-weight: 600;
-    font-family: Poppins, sans-serif;
 }
 
 .plan-drops select, .plan-drops input[type="text"] {

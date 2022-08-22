@@ -1,0 +1,105 @@
+*{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1em;
+    transition: all 0.4s ease-in-out;
+}
+body{
+    /* background: url("../styles/assets/img/user-1.jpg") no-repeat center center / cover; */
+    background:#000;
+    height: 100vh;
+    color: #fff;
+    overflow-x: hidden;
+}
+.welcome_massage{
+    color:#fff;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+}
+/* style navbar */
+
+
+
+.bars{
+    position: relative;
+    top:1rem; left: 2rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    display: inline-block;
+}
+.bars i:hover{
+    transform: rotate(50deg);
+}
+.close{
+    font-size: 2.5rem;
+    float: right;
+    cursor: pointer;
+}
+
+nav ul,a{color: #000;}
+nav ul{
+    position: absolute;
+    left: 0px; top:0px;
+    background: #edd606;
+    min-height: 100vh;
+    width: 280px;
+    z-index: 888;
+}
+
+.list-none{
+    position: absolute;
+    left: -280px;
+}
+
+
+li{
+    padding:1rem 2rem;
+    margin-top:2rem;
+    width: 100%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display:flex;
+}
+li:hover{
+    background-color: #fff;
+}
+
+i{ margin-right: 10px;}
+
+/* home page */
+
+.home-page{
+    color: #000;
+    position: relative;
+    width: 95%;
+    float: right;
+    margin-top: 2rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit , minmax(19rem,1fr));
+    justify-items: center;
+}
+.home-page i{
+    font-size: 2.3rem;
+}
+.home-page .card{
+    padding: 3rem;
+    margin:1rem  0rem;
+    width: 270px;
+    background-color:#facd8a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card h1{
+    font-size: 1.4rem;
+}
+
+.home-page .card:hover{
+    background-color: #fff;
+}
+

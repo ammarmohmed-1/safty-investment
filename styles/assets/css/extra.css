@@ -37,10 +37,6 @@ background-color: #000;
     color: #ffffff;
 }
 
-.plans {
-    margin: 30px 0;
-}
-
 .plan_details.text-center {
     width: 255px;
     height: 300px;
@@ -108,17 +104,6 @@ li.list-item {
 .d-flex {
     display: -ms-flexbox!important;
     display: flex!important;
-}
-
-.plans-label.one {
-    color: #ffffff;
-}
-.plans-label {
-    font-size: 14px;
-    color: #647482;
-    padding-bottom: 15px;
-    font-weight: 600;
-    font-family: Poppins, sans-serif;
 }
 
 .plan-drops select, .plan-drops input[type="text"] {

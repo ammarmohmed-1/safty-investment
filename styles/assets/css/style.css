@@ -10124,7 +10124,6 @@ label {
     height: calc(100% + 40px);
     top: -15px;
     left: -12px;
-    background: url(../img/affilate-before.png) no-repeat center;
     background-size: 100%
 }
 
@@ -10171,7 +10170,6 @@ label {
     height: 32px;
     left: -166px;
     top: 20px;
-    background: url(../img/affilate-before-2.png) no-repeat center
 }
 
 .affilates__affilate:nth-of-type(3) {
@@ -10618,8 +10616,7 @@ label {
 }
 
 .logo {
-    background-color: #ffff;
-    width: 150px; height: auto;
+    width: 120px; height: auto;
     margin: 0px 40px;
 }
 
@@ -10627,7 +10624,6 @@ label {
 .logo:active:focus,
 .logo:focus,
 .logo:hover {
-    color: #facd8a;
     text-decoration: none
 }
 
@@ -11379,7 +11375,6 @@ label {
     font-size: 16px;
     font-size: 1.14rem;
     text-align: center;
-    color: #c8c8c8;
     padding: 35px 0
 }
 

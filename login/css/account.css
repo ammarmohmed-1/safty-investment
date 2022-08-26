@@ -1,0 +1,40 @@
+input{
+    height: 50px;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.login form{
+    width: 90%;
+    margin:3rem 0rem;
+    background-color: #212529;
+    padding:5rem;
+    display: block;
+}
+
+/* style on login page  */
+.login{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+.login form input,button{
+    width: 100%;
+    outline: none;
+    font-size:1rem;
+    margin: 20px 0px;
+}
+
+/* style on singup page */
+
+.Sing_up form{
+    position: relative;
+    left: 10%;
+    /* margin-left:6%; */
+    padding: 2rem;
+}
+.Sing_up form a{
+    display: block;
+}
